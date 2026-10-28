@@ -105,6 +105,22 @@ The application login flow and authenticated profile page were verified in the b
 
 Functional integration testing for Memcached and RabbitMQ remains a separate validation step.
 
+## Project Screenshots
+
+### Infrastructure Architecture
+![Infrastructure Architecture](screenshots/01-architecture.png)
+
+### Vagrant Infrastructure Configuration
+![Vagrantfile](screenshots/02-vagrantfile.png)
+
+### Virtual Machine Resources
+![Machines Configuration](screenshots/03-machines-yml.png)
+
+### VProfile Login Page
+![VProfile Login](screenshots/04-login.png)
+
+### Successful Application Login
+![VProfile Welcome](screenshots/05-welcome.png)
 ## Security Notes
 
 This is a local development lab, not a production-ready deployment. Application passwords, private SSH keys, and VM state files are excluded from the repository. HTTP is used within the private lab network.
