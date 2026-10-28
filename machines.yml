@@ -1,0 +1,38 @@
+
+# Virtual Machines Configuration
+# Resources and network settings for Vagrant VMs
+
+# Machine 1 - Database (MariaDB)
+db01:
+  hostname: db01
+  memory: 1536
+  cpus: 1
+  ip: "192.168.56.12"
+
+# Machine 2 - Memcached
+mc01:
+  hostname: mc01
+  memory: 1024
+  cpus: 1
+  ip: "192.168.56.13"
+
+# Machine 3 - RabbitMQ
+rmq01:
+  hostname: rmq01
+  memory: 1024
+  cpus: 1
+  ip: "192.168.56.14"
+
+# Machine 4 - Application (Tomcat)
+app01:
+  hostname: app01
+  memory: 2048
+  cpus: 2
+  ip: "192.168.56.15"
+
+# Machine 5 - Web (Nginx)
+web01:
+  hostname: web01
+  memory: 768
+  cpus: 1
+  ip: "192.168.56.16"

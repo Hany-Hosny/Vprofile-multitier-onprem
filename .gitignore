@@ -1,0 +1,30 @@
+# Vagrant local machine state
+.vagrant/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+**/application.properties
+
+# Private keys
+*.pem
+*.key
+id_rsa
+id_ed25519
+
+# Java build artifacts
+target/
+*.war
+*.class
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Editor files
+.vscode/
+.idea/
+Docs/
